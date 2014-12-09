@@ -79,7 +79,7 @@ $freq['dir']=array(
 #1: 0/lfs/0/vars/1/lf  (Direct)
 #2: 0/lfs[0]/vars/[freq=>1004]/lf
 #2: 0/lfs[0,vars]/[freq=>1004]/lf (index/list[index,nodes]/[key=>value]/lf)
-#3: 0/lfs[#,vars][freq=>1004]/lf (index/list[index,nodes][key=>value]/attribute)
+#3: 0/lfs[0,vars][freq=>1004]/lf (index/list[index,nodes][key=>value]/attribute)
 
 // Update
 $fre = Khooj::update( '0/lfs/[freq=>{f}]/vars[since=>{s}]', $ary, $freq, array(
